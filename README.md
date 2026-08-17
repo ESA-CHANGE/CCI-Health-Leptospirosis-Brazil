@@ -47,13 +47,10 @@ This project is licensed under the MIT License of 2023 ESA Climate Change Initia
 
 ## Acknowledgments
 
-We gratefully acknowledge the following organizations and institutions for providing open access to the data used in this project:
+We gratefully acknowledge the following organisations and institutions for providing open access to the data used in this project:
 
-DATASUS / SINAN: For providing epidemiologic data on reported leptospirosis cases.
-
-IBGE: For providing municipal population estimates.
-
-CHIRPS (Climate Hazards Center, UC Santa Barbara): For daily precipitation data.
-
-European Space Agency (ESA): For Land Surface Temperature (LST) climate data products.
+* **DATASUS / SINAN:** For providing epidemiological data on reported leptospirosis cases.
+* **IBGE:** For providing municipal population estimates.
+* **CHIRPS (Climate Hazards Center, UC Santa Barbara):** For daily precipitation data.
+* **European Space Agency (ESA):** For Land Surface Temperature (LST) climate data products.
 
