@@ -1,55 +1,45 @@
-# Case of Study Title
+# Climate Change and Leptospirosis Health Risks in Brazil
+Understanding the dynamic environmental, climatic, and social variables that drive leptospirosis outbreaks is a primary goal of epidemiological modelling. However, this is a complex task due to the intricate interactions involved. For a continental-scale country like Brazil, which experiences diverse climate regimes across its territory, it is essential to account for these regional differences in risk mapping. 
 
-Simple overview of the use and purpose of this case of study.
+The goal of this case study is to characterise leptospirosis incidence in Brazil from 2007 to 2024, examining its spatial distribution alongside its main environmental and climatic drivers. The ultimate objective is to identify the areas most vulnerable to flood events across the Brazilian territory.
 
 ## Description
 
-An in-depth paragraph about your case of study and overview of use.
+Confirmed leptospirosis cases from 2007 to 2024 were obtained from the Brazilian Notifiable Diseases Information System (Sistema de Informação de Agravos de Notificação – SINAN) (DATASUS, 2024). Because reporting is mandatory for local health authorities in Brazil, only confirmed cases were included in the analysis. 
+
+Cases were aggregated by municipality, year, and month based on notification date and patient place of residence. Annual population estimates were sourced from the Brazilian Institute of Geography and Statistics (IBGE). The monthly incidence rate was calculated as the number of cases divided by the municipal population, expressed per 100,000 inhabitants. Daily rainfall data were obtained from the Climate Hazards Group InfraRed Precipitation with Station data (CHIRPS), and land surface temperature (LST) data were obtained from the ESA LST products.
+
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-* Python version >=3.8
+* R version >= 4.6
+* Rstudio
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Install R and Rstudio.
+* Download or clone this repository.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-
-```
-code blocks for commands
-```
+* The code is organised into data preparation and data analysis scripts.
+* Data from SINAN and IBGE are available in the `data/` folder.
+* Satellite data processing scripts will be available soon.
+  
 
 ## Help
-
-Any advise for common problems or issues.
-
-```
-command to run if program contains helper info
-```
+Under construction.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Andréa de Lima Oliveira (andrea.liolive@gmail.com)
 
 ## Version History
 
-* 0.2
-  * Various bug fixes and optimizations
-  * See [commit change]() or See [release history]()
 * 0.1
-  * Initial Release
+  * Initial Release (underconstrution)
 
 ## License
 
@@ -57,5 +47,13 @@ This project is licensed under the MIT License of 2023 ESA Climate Change Initia
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+We gratefully acknowledge the following organizations and institutions for providing open access to the data used in this project:
+
+DATASUS / SINAN: For providing epidemiologic data on reported leptospirosis cases.
+
+IBGE: For providing municipal population estimates.
+
+CHIRPS (Climate Hazards Center, UC Santa Barbara): For daily precipitation data.
+
+European Space Agency (ESA): For Land Surface Temperature (LST) climate data products.
 
